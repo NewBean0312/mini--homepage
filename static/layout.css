@@ -1,0 +1,52 @@
+body {
+    background-color:#a3a3a3;
+    background-image: url("./pattern.png");
+    background-size: 100px;
+
+    /* 기본 body 사이즈를 화면 크기로 조정 */
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.bookcover {
+    background-color: #b4d1da;
+    border-radius: 9px;
+    border: 1px solid #739186;
+    width: 960px;
+    height: 660px;
+    margin: 100px auto;
+    position: relative;
+}
+.bookdot {
+    border-radius: 9px;
+    border: 1px dashed white;
+    top: 9px;
+    left: 9px;
+    width: 940px;
+    height: 640px;
+    position: absolute;
+}
+.page {
+    background-color: rgb(219, 219, 219);
+    border-radius: 9px;
+    top: 10px;
+    left: 10px;
+    width: 920px;
+    height: 620px;
+    position: absolute;
+    display: flex;
+}
+.box {
+    border: 2px solid rgb(187, 187, 187);
+    background-color: white;
+    border-radius: 9px;
+    margin: 10px;
+}
+.middle-box {
+    border: 2px solid rgb(187, 187, 187);
+    background-color: white;
+    border-radius: 9px;
+    margin: 10px 0px 10px 10px;
+}
